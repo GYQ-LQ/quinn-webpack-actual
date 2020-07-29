@@ -7,7 +7,7 @@
 ### 2、引用
 
 ```
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 ```
 
 ### 3、使用
