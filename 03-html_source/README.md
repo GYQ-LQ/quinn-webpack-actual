@@ -1,4 +1,4 @@
-# webpack 打包 html 资源
+# webpack 打包 html 资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/03-html_source)
 
 ### 1、下载
 
@@ -11,6 +11,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 ```
 
 ### 3、使用
+
+- webpack.config.js
 
 ```
 module.exports = {
