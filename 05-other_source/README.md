@@ -1,10 +1,11 @@
 # webpack 打包 其他 资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/05-other_source)
  
-## 下载
+## 1、下载
 ```
 npm i file-loader -D
 ```
-## 使用
+## 2、使用
+- webpack.config.js
 ``` 
 module.exports = { 
     module: {
