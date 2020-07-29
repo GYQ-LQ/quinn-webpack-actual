@@ -8,6 +8,8 @@
 
 ### 2、使用
 
+- webpack.config.js
+
 ```
 module.exports = {
    module: {
@@ -51,6 +53,8 @@ module.exports = {
 > npm i html-loader -D
 
 ### 2、使用
+
+- webpack.config.js
 
 ```
 module.exports = {
