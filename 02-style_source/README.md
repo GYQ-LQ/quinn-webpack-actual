@@ -1,4 +1,4 @@
-# webpack 打包样式资源
+# webpack 打包样式资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/02-style_source)
 
 webpack.config.js webpack 的配置文件。
 
@@ -9,6 +9,8 @@ webpack.config.js webpack 的配置文件。
 > npm i css-loader style-loader -D
 
 ### 2、使用
+
+- webpack.config.js
 
 ```
 /*
@@ -58,6 +60,8 @@ module.exports = {
 > npm i less-loader -D
 
 ### 2、使用
+
+- webpack.config.js
 
 ```
 {
