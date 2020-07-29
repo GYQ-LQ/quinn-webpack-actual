@@ -1,4 +1,4 @@
-# webpack 简介、核心及初体验
+# webpack 简介、核心及初体验 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/01-first_try)
 
 ## webpack 简介
 
