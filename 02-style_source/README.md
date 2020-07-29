@@ -23,7 +23,7 @@ module.exports = {
     output: {
         // 输出文件名
         filename: 'bundle.js',
-        // 输出路径 __dirname：nodejs的变量，代表当前文件的绝对目录路径
+        // 输出路径  __dirname：nodejs的变量，代表当前文件的绝对目录路径
         path: path.resolve(__dirname, 'build'),
     },
     module: {
