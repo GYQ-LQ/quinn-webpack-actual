@@ -31,7 +31,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.html$/,
+                test: /\.(html|htm)$/,
                 // 处理html文件的img图片（负责引入img，从而能被url-loader进行处理）
                 loader: 'html-loader',
             },

@@ -40,6 +40,17 @@ module.exports = {
 }
 ```
 
+或者
+
+```
+rules: [{
+    test: /\.(png|svg|jpg|gif)$/,
+    use: [
+        'file-loader'
+    ]
+}, ];
+```
+
 > **问题：处理不了 html 中的 img 图片**
 
 ```
@@ -61,7 +72,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.html$/,
+                test: /\.(html|htm)$/,
                 // 处理html文件的img图片（负责引入img，从而能被url-loader进行处理）
                 loader: 'html-loader',
             },
