@@ -1,4 +1,4 @@
-# webpack 打包 图片 资源
+# webpack 打包 图片 资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/04-img_source)
 
 ## 打包图片资源
 
