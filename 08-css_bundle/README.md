@@ -1,18 +1,18 @@
-# webpack css 的提取、兼容、压缩 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/08-css_bundle)
+# webpack css 的提取、兼容、压缩 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/08-css_bundle)
 
 ## 提取 css 成单独文件
 
-### 1. 下载 
+### 1. 下载
 
-``` 
+```
 npm i mini-css-extract-plugin -D
 ```
 
 ### 2. 使用
 
-* webpack.config.js:
+- webpack.config.js:
 
-``` 
+```
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -51,20 +51,20 @@ module.exports = {
 }
 ```
 
-## css 兼容性处理 
+## css 兼容性处理
 
-css: 兼容性处理： postcss -->  postcss-loader  postcss-preset-env
+css: 兼容性处理： postcss --> postcss-loader postcss-preset-env
 
-### 1. 下载 
+### 1. 下载
 
-``` 
+```
 npm i postcss-loader  postcss-preset-env -D
 ```
 
 ### 2. 使用
 
-``` 
-module.exports = { 
+```
+module.exports = {
     module: {
         rules: [{
                 test: /\.css$/,
@@ -116,15 +116,15 @@ module.exports = {
                         ],
                     },
                 ],
-            },  
+            },
         ],
-    }, 
+    },
 }
 ```
 
-* package.json
+- package.json
 
-``` 
+```
 "browserslist": {
     // 开发环境 ---> 设置node环境变量：process.env.NODE_ENV = development
     "development": [
@@ -141,17 +141,17 @@ module.exports = {
 }
 ```
 
-## 压缩 css 
+## 压缩 css
 
-### 1. 下载  
+### 1. 下载
 
-``` 
+```
 npm i optimize-css-assets-webpack-plugin -D
 ```
 
 ### 2. 使用
 
-``` 
+```
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {

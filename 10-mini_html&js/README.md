@@ -1,4 +1,4 @@
-# webpack 压缩 html 和 js [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/10-mini_html&js)
+# webpack 压缩 html 和 js [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/10-mini_html&js)
 
 ## js 代码压缩
 

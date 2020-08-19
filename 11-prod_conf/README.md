@@ -1,4 +1,4 @@
-# webpack 生产环境基本配置 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/11-prod_conf)
+# webpack 生产环境基本配置 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/11-prod_conf)
 
 ## webpack.config.js
 
@@ -152,7 +152,7 @@ module.exports = {
 
 ```
 {
-  "name": "webpack-actual",
+  "name": "quinn-webpack-actual",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -161,14 +161,14 @@ module.exports = {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GYQ-LQ/webpack-actual.git"
+    "url": "git+https://github.com/GYQ-LQ/quinn-webpack-actual.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GYQ-LQ/webpack-actual/issues"
+    "url": "https://github.com/GYQ-LQ/quinn-webpack-actual/issues"
   },
-  "homepage": "https://github.com/GYQ-LQ/webpack-actual#readme",
+  "homepage": "https://github.com/GYQ-LQ/quinn-webpack-actual#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/polyfill": "^7.10.4",

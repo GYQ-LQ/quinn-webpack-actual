@@ -1,13 +1,17 @@
-# webpack 打包 其他 资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/05-other_source)
- 
+# webpack 打包 其他 资源 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/05-other_source)
+
 ## 1、下载
+
 ```
 npm i file-loader -D
 ```
+
 ## 2、使用
+
 - webpack.config.js
-``` 
-module.exports = { 
+
+```
+module.exports = {
     module: {
         rules: [{
                 test: /\.css$/,
@@ -33,6 +37,6 @@ module.exports = {
                 loader: 'file-loader'
             },
         ]
-    }, 
+    },
 }
 ```

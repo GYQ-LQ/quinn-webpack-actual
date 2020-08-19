@@ -1,4 +1,4 @@
-# webpack 性能优化 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/12-optimize)
+# webpack 性能优化 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/12-optimize)
 
 ## 开发环境性能优化
 

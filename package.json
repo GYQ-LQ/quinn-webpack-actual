@@ -1,5 +1,5 @@
 {
-  "name": "webpack-actual",
+  "name": "quinn-webpack-actual",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GYQ-LQ/webpack-actual.git"
+    "url": "git+https://github.com/GYQ-LQ/quinn-webpack-actual.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GYQ-LQ/webpack-actual/issues"
+    "url": "https://github.com/GYQ-LQ/quinn-webpack-actual/issues"
   },
-  "homepage": "https://github.com/GYQ-LQ/webpack-actual#readme",
+  "homepage": "https://github.com/GYQ-LQ/quinn-webpack-actual#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/polyfill": "^7.10.4",

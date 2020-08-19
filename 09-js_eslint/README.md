@@ -1,4 +1,4 @@
-# webpack js 的 eslint 语法检查及兼容性处理 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/09-js_eslint)
+# webpack js 的 eslint 语法检查及兼容性处理 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/09-js_eslint)
 
 ## eslint 语法检查
 
