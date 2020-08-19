@@ -1,4 +1,4 @@
-# webpack 打包样式资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/02-style_source)
+# webpack 打包样式资源 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/02-style_source)
 
 webpack.config.js webpack 的配置文件。
 

@@ -1,4 +1,4 @@
-# webpack 打包 html 资源 [(GitHub)](https://github.com/GYQ-LQ/webpack-actual/tree/master/03-html_source)
+# webpack 打包 html 资源 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-actual/tree/master/03-html_source)
 
 ### 1、下载
 
