@@ -1,6 +1,15 @@
+/*
+ * @Author: Quinn
+ * @Date: 2020-08-19 21:38:58
+ * @LastEditTime: 2020-12-01 14:37:45
+ * @LastEditors: quinn
+ * @Description:  
+ */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const {
+  CleanWebpackPlugin
+} = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/js/index.js',
@@ -9,8 +18,7 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
